@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".adminpanel.ButtonAdminActivity">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/girlypink"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/addImagesButton"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:padding="100px"
+                android:textSize="20dp"
+                android:background="@drawable/white_box"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="Add Images"/>
+
+            <Button
+                android:id="@+id/orderButton"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:padding="100px"
+                android:textSize="20dp"
+                android:background="@drawable/white_box"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="Orders"/>
+
+            <Button
+                android:id="@+id/logoutButton"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/white_box"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:padding="100px"
+                android:text="Log Out" />
+            <ProgressBar
+                android:visibility="gone"
+                android:layout_gravity="center"
+                android:id="@+id/progress_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
